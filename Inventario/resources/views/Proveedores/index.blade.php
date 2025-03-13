@@ -4,7 +4,17 @@
 
 @section('content')
 <div class="container mt-4">
-    <h2 class="text-center mb-4">Lista de Proveedores</h2>
+    <h2 class="text-center mb-4" style="
+    font-size: 2.8rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    background: linear-gradient(90deg,rgb(5, 189, 167) 0%, #00838f 40%, #03a9f4 70%, #81c784 100%);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 15px rgba(3, 169, 244, 0.7); 
+    border-bottom: 4px solid #00838f; 
+    padding-bottom: 8px;">Lista de Proveedores</h2>
 
     <!-- Botón para crear proveedor -->
     <div class="text-end mb-4">
@@ -12,8 +22,8 @@
     </div>
 
     <!-- Tabla de proveedores -->
-    <table class="table table-bordered table-striped">
-        <thead>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
             <tr>
                 <th>Nombre del proveedor</th>
                 <th>Correo electrónico</th>
